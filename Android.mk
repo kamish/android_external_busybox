@@ -28,6 +28,7 @@ BUSYBOX_C_INCLUDES = \
 BUSYBOX_CFLAGS = \
 	-std=gnu99 \
 	-Werror=implicit \
+	-Wno-format \
 	-DNDEBUG \
 	-DANDROID_CHANGES \
 	-include include-$(BUSYBOX_CONFIG)/autoconf.h \
